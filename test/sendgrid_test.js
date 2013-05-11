@@ -1,4 +1,4 @@
-var SendGrid = require('../sendgrid-webhook');
+var SendGrid = require('../index');
 var request = require('request');
 var assert = require('assert');
 var sgevents = new SendGrid();
