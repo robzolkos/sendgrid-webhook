@@ -24,7 +24,7 @@ The module emits the following events depending on the payload sent by SendGrid 
 
 If a non-post event is detected the module emits a 'request_error' event.
 
-If an event not defined from the list above is in the request parameters, a 'event_error' event is emmited.
+If an event not defined from the list above is in the request parameters, a 'event_error' event is emitted.
 
 The server has a /ping GET method to check it is up. It returns a ‘pong’ response if it is up.
 
