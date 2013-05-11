@@ -1,0 +1,20 @@
+{
+  "name": "sendgrid-webhook",
+  "version": "0.0.1",
+  "description": "SendGrid Webhook Server for events api",
+  "main": "SendGridWebhook.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": "",
+  "keywords": [
+    "sendgrid",
+    "webhook",
+    "events"
+  ],
+  "author": "Rob Zolkos <robzolkos@gmail.com>",
+  "license": "BSD"
+}
