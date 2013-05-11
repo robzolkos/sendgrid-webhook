@@ -55,6 +55,8 @@ npm test
 * Batch events
 * SSL
 
+Contributions welcome.
+
 ## License
 
 MIT
