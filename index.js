@@ -8,7 +8,7 @@ function SendGridWebhook (options) {
     var self = this;
 
     if (!options)
-        var options = {};
+      options = {};
 
     EventEmitter.call(this);
 
