@@ -7,8 +7,9 @@ function SendGridWebhook (options) {
 
     var self = this;
 
-    if (!options)
+    if (!options) {
       options = {};
+    }
 
     EventEmitter.call(this);
 
@@ -31,13 +32,13 @@ function SendGridWebhook (options) {
         var requestBody = '';
         var requestUrl = url.parse(request.url, true);
 
-        if (request.method == 'GET' && request.url == '/ping') {
+        if (request.method === 'GET' && request.url === '/ping') {
             response.writeHead(200, { 'Content-Type' : 'text/plain' });
             response.end("pong");
             return;
         }
 
-        if (request.method != 'POST') {
+        if (request.method !== 'POST') {
             self.emit('request_error', 'Only POST requests allowed.');
             response.writeHead(500, { 'Content-Type' : 'text/plain' });
             response.end();
@@ -50,7 +51,7 @@ function SendGridWebhook (options) {
 
         request.on('end', function () {
             var payload   = requestUrl.query;
-            var eventType = payload.event
+            var eventType = payload.event;
             var email     = payload.email;
 
             if (eventType && ~self.allowedTypes.indexOf(eventType)) {
