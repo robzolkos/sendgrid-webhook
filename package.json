@@ -1,6 +1,6 @@
 {
   "name": "sendgrid-webhook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SendGrid Webhook Server for events api",
   "main": "SendGridWebhook.js",
   "directories": {
