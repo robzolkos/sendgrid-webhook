@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/robzolkos/securerandom.svg?branch=master)](https://travis-ci.org/robzolkos/securerandom)
 [![Code Climate](https://codeclimate.com/github/RobZolkos/sendgrid-webhook/badges/gpa.svg)](https://codeclimate.com/github/RobZolkos/sendgrid-webhook)
+[![npm version](https://badge.fury.io/js/sendgrid-webhook.svg)](http://badge.fury.io/js/sendgrid-webhook)
 
 A simple server module to capture SendGrids webhooks and emit the relevant events.
 
