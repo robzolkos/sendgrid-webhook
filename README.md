@@ -1,6 +1,6 @@
 # SendGrid Webhook Server
 
-![Build Status](https://travis-ci.org/robzolkos/sendgrid-webhook.png?branch=master)
+[![Build Status](https://travis-ci.org/robzolkos/securerandom.svg?branch=master)](https://travis-ci.org/robzolkos/securerandom)
 
 A simple server module to capture SendGrids webhooks and emit the relevant events.
 
