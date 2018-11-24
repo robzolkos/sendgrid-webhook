@@ -21,7 +21,7 @@
   "author": "Rob Zolkos <robzolkos@gmail.com>",
   "license": "BSD",
   "devDependencies": {
-    "mocha": "~1.9.0",
+    "mocha": "^5.2.0",
     "request": "^2.88.0"
   }
 }
