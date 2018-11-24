@@ -19,7 +19,7 @@
     "events"
   ],
   "author": "Rob Zolkos <robzolkos@gmail.com>",
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^5.2.0",
     "request": "^2.88.0"
